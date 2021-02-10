@@ -1,0 +1,130 @@
+*, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: rgb(255,255,255);
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+a {
+  color: rgb(78, 78, 78);
+  font-style: italic;
+}
+a:hover {
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+/*Repeat elements. Heading*/
+.heading__title {
+  font-style: italic;
+  font-size: 2em;
+  padding-top: 2em; 
+}
+.heading__info {
+  text-indent: 1.5em;
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+.heading__link {
+  font-size: 18px;
+   list-style-type: square;
+   margin-top: 1em;
+}
+/*Header*/
+.header {
+ background-color: rgb(142, 142, 142);
+}
+.header__wrapper {
+  height: 250px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header__title h1 {
+  color: rgb(78, 78, 78);
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+.header__title h2 {
+  color: rgb(63, 63, 63);
+  font-size: 2rem;
+}
+.header__photo {
+  width: 15%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+/*Contacts*/
+.contacts {
+  background-color: rgb(139, 139, 139);
+  padding-bottom: 1em;
+}
+.contacts__link {
+  margin-top: 1rem;
+}
+.contacts__link li {
+  margin-bottom: 1rem;
+}
+.contacts__indent {
+  display: inline;
+  margin-right: 1rem;
+  font-weight: 700;
+  font-size: 18px;
+}
+.contacts__communication {
+  color:rgb(32, 32, 32);
+  text-decoration: none;
+  font-size: 18px;
+}
+/*Summary*/
+.summary {
+  background-color: rgb(138, 138, 138);
+  padding-bottom: 1em;
+}
+
+/*Skills*/
+.skills {
+  padding-bottom: 1em;
+  background-color: rgb(137, 137, 137);
+  font-size: 16px;
+}
+/*Examples*/
+.examples {
+  padding-bottom: 1em;
+  background-color: rgb(136, 136, 136);
+}
+.examples__source {
+display: inline-block;
+font-size: 16px;
+font-weight: 700;
+padding-top: 1em;
+}
+.examples a {
+  color:rgb(32, 32, 32);
+  text-decoration: none;
+  font-size: 18px;
+}
+.examples__code {
+  margin-top: 1em;
+  font-size: 16px;
+}
+/*Experience*/
+.experience {
+padding-bottom: 1em;
+background-color: rgb(135, 135, 135);
+}
+/*Education*/
+.education {
+padding-bottom: 1em;
+background-color: rgb(134, 134, 134);
+}
+/*Language*/
+.language {
+ padding-bottom: 1em;
+background-color: rgb(133, 133, 133); 
+}
