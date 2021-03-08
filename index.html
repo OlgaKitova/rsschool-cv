@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+      <div class="header__title">
+        <h1>Resume</h1>
+        <h2>Olga Kitova</h2></div>
+      <img class="header__photo" src="photo.JPG" alt="photo">
+      </div>
+  </div>
+  </header>
+  <section class="contacts">
+    <div class="container">
+      <h2 class="heading__title">Contacts</h2>
+      <ul class="contacts__link">
+        <li>
+          <p class="contacts__indent">Phone</p>
+          <a class="contacts__communication" href="tel:+79193523083">+7 (919) 352-30-83</a>
+        </li>
+        <li>
+          <p class="contacts__indent">Telegram</p>
+          <a class="contacts__communication" href="https://t.me/OlgaKitova" target="_blank">OlgaKitova</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="summary">
+    <div class="container">
+      <h2 class="heading__title">About myself</h2>
+      <p class="heading__info"> Front-end development is attractive because the result of your work is immediately visible. Bringing your website to
+      life with Java Script turns you into a wizard. My goal is to gain knowledge in this area and the opportunity to start my path in the profession of a front-end
+      developer. At the moment, without any commercial experience, I have designed more than 7 landing pages, and for about 3 months I
+      have been studying the basic JS. I enjoy learning new things and putting them into practice.</p>
+    </div>
+  </section>
+  <section class="skills">
+    <div class="container">
+      <h2 class="heading__title">Skills</h2>
+      <ul class="heading__link">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVA SCRIPT</li>
+        <li>GIT</li>
+      </ul>
+    </div>
+  </section>
+  <section class="examples">
+    <div class="container">
+      <h2 class="heading__title">Code examples</h2>
+      <p class="examples__source">Implementation from this kata:</p>
+      <a href="https://www.codewars.com/kata/54b42f9314d9229fd6000d9c">Codewars</a>
+      <p class="examples__code">
+        <code>
+          function duplicateEncode(word){<br>
+          word = word.toLowerCase();<br>
+           return word.replace(/(.)/g, (c) => word.indexOf(c) != word.lastIndexOf(c) ? ')' : '(');
+      }</code>
+    </p> 
+    </div>
+  </section>
+  <section class="experience">
+    <div class="container">
+      <h2 class="heading__title">Experience</h2>
+      <p class="examples__source">Learning experience:</p>
+      <ul class="contacts__link">
+        <li>
+          <p class="contacts__indent">Timer:</p>
+          <a class="contacts__communication" href="https://olgakitova.github.io/timeNewYear/timer">olgakitova.github.io/timeNewYear/timer</a>
+        </li>
+        <li>
+          <p class="contacts__indent">WordSkills project:</p>
+          <a class="contacts__communication" href=" https://olgakitova.github.io/projectbyWorldSkills" target="_blank">olgakitova.github.io/projectbyWorldSkills</a>
+        </li>
+        <li>
+          <p class="contacts__indent">E-mail:</p>
+          <a class="contacts__communication" href="https://olgakitova.github.io/first-mail/index.html"
+            target="_blank">olgakitova.github.io/first-mail</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="education">
+    <div class="container">
+      <h2 class="heading__title">Education</h2>
+      <ul class="heading__link">
+        <li>Codecademy (Web Development)</li>
+        <li>South-Ural State Technical College (Front-end Development technologies)</li>
+        <li>Udemy, author: Ivan Petrichenko (Java Script)</li>
+      </ul>
+    </div>
+  </section>
+  <section class="language">
+    <div class="container">
+      <h2 class="heading__title">Language</h2>
+      <p class="heading__info">
+      I studied English during all the years of the university. 
+      Now I practice - I watch English-language channels, I read
+      technical literature in English.
+    </p>
+    </div>
+  </section>
+</body>
+</html>
